@@ -5,8 +5,8 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import NekoMain from './components/NekoMain';
-import NekoDashboard from './components/NekoDashboard';
+import NekoMain from './components/home/NekoMain';
+import NekoDashboard from './components/dashboard/NekoDashboard';
 
 
 function App() {
@@ -14,11 +14,11 @@ function App() {
     <div className="App">
       <Router>
           <Switch>
-            <Route path="/">
-              <NekoMain />
-            </Route>
             <Route path="/neko-dashboard">
               <NekoDashboard />
+            </Route>
+            <Route path="/">
+              <NekoMain />
             </Route>
           </Switch>
       </Router>

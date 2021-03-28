@@ -1,0 +1,74 @@
+/* 
+Color pallete
+#ffc93c
+#dbf6e9
+#9ddfd3
+#31326f
+*/
+.dashboard-container {
+  background-color: #fff;
+  color: #31326f;
+  width: 60%;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  color: #31326f;
+}
+
+.dashboard-container h1{
+  color: #31326f;
+  padding:10px;
+}
+
+.neko-FoodTray{
+  background-color:#ffc93c;
+  height: 12rem;
+  width: 20rem;
+}
+.neko-FoodList{
+  background-color:#9ddfd3;
+  height: 28.5rem;
+  width: 20rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.neko-Collection{
+  background-color:#dbf6e9;
+  height: 15rem;
+  width: 20rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.dashboard-footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
+  color: #524a79;
+  text-align: center;
+}
+
+.dashboard-footer a {
+  padding: 10px;
+  font-size: 30px;
+  color: #524a79;
+}
+
+.dashboard-footer a:hover {
+  color: #000;
+}
+
+.neko-badge-container{
+  background-color: #fd89dd;
+  display: inline-block;
+  border: 2px solid #fd89dd;
+  border-radius: 10%;
+}

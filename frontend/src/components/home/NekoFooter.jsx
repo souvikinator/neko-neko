@@ -5,8 +5,8 @@ class NekoFooter extends Component {
     render() {
         return (
             <div className="neko-footer">
-                <a href="#"><FaInfoCircle /></a>
-                <a href="#"><AiFillGithub /></a>
+                <a href="https://github.com/DarthCucumber/neko-neko"><FaInfoCircle /></a>
+                <a href="https://github.com/DarthCucumber/neko-neko/blob/master/README.md"><AiFillGithub /></a>
             </div>
         )
     }

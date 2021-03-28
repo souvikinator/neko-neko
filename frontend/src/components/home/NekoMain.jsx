@@ -3,6 +3,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import NekoFooter from "./NekoFooter";
 import EntryForm from "./EntryForm";
+import "./home.css";
 
 class NekoMain extends Component {
   constructor() {
